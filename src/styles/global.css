@@ -107,12 +107,12 @@ input[type="checkbox"]::before {
   transform: scale(0);
   transform-origin: bottom left;
   transition: 120ms transform ease-in-out;
-  background-color: var(--white);
+  background-color: #fff;
 }
 
 input[type="checkbox"]:checked {
-  background-color: var(--green-500);
-  border-color: var(--green-500);
+  background-color: #84cc16;
+  border-color: #84cc16;
 }
 
 input[type="checkbox"]:checked::before {
