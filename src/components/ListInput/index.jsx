@@ -7,7 +7,7 @@ export function ListInput() {
   const [inputValue, setInputValue] = useState("");
   const [tasks, setTasks] = useState([]);
   const countTasks = tasks.length;
-  const completedTasks = tasks.filter((task) => task.completed).length;
+  const completedTasks = tasks.filter(task => task.isCompleted === true).length;
 
   function handleClick() {
     if (!inputValue) {
